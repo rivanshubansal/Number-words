@@ -1,36 +1,54 @@
 body {
   background-color: #1F2937;
-  margin: 0;
-  /* height: 100%; */
-  box-sizing: border-box;
+  /* margin: 0;
+  box-sizing: border-box; */
   /* position: fixed; */
+  background-size: cover;
 }
 
 
 textarea {
-  /* width: 35%; */
-  /* height: 25vh; */
+  width: 50%;
+  height: 15vh;
   display: block;
-  margin: 1rem;
+  margin: 2rem;
   padding: 1rem;
+  resize: none;
+  background-color: #1F2937;
+  color: #D97706;
   /* font-family: 'Gloria Hallelujah', cursive; */
-  font-size: large;
+  /* font-size: large; */
   
 }
 
 #output {
-  /* width: 35%; */
-  /* height: 25vh; */
-  margin: 1rem;
+  width: 50%;
+  height: 15vh;
+  margin: 2rem;
   padding: 1rem;
-  display: block;
+  /* display: block; */
   /* font-family: 'Gloria Hallelujah', cursive; */
-  font-size: large;
+  /* font-size: large; */
   border: 1px solid black;
-  color: aqua;
+  color: #D97706;
 }
 
 button {
-  font-size: larger;
+  border: none;
+  padding: 15px 32px;
   text-align: center;
+  display: inline-block;
+  margin: 2rem;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 2rem;
+}
+
+.heading {
+  margin-left: 20%;
 }
