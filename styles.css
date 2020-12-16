@@ -1,0 +1,36 @@
+body {
+  background-color: #1F2937;
+  margin: 0;
+  /* height: 100%; */
+  box-sizing: border-box;
+  /* position: fixed; */
+}
+
+
+textarea {
+  /* width: 35%; */
+  /* height: 25vh; */
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  /* font-family: 'Gloria Hallelujah', cursive; */
+  font-size: large;
+  
+}
+
+#output {
+  /* width: 35%; */
+  /* height: 25vh; */
+  margin: 1rem;
+  padding: 1rem;
+  display: block;
+  /* font-family: 'Gloria Hallelujah', cursive; */
+  font-size: large;
+  border: 1px solid black;
+  color: aqua;
+}
+
+button {
+  font-size: larger;
+  text-align: center;
+}
